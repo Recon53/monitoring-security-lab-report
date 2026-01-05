@@ -11,6 +11,7 @@
   <img src="banner.png" alt="Monitoring & Security Lab: Ubuntu and Windows">
 </p>
 
+![License](https://img.shields.io/github/license/Recon53/monitoring-security-lab)
 
 A hands-on lab demonstrating how to detect ransomware behavior using system logs, monitoring tools, and real incident workflows.
 
@@ -78,6 +79,15 @@ This repository is meant for learning and academic research.
 The labs demonstrate how monitoring tools help detect suspicious behavior and ransomware activity.
 
 ---
+
+## 📊 Results Overview
+
+Throughout this lab, monitoring tools helped identify:
+- Suspicious process activity in PowerShell
+- Ransomware-like behavior changing multiple file hashes
+- Differences between baseline and post-encryption file states
+
+- ---
 
 ## 📸 Screenshots Preview
 
