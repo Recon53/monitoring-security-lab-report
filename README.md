@@ -34,14 +34,13 @@ The work includes screenshots, explanations, and analysis showing how system too
   
 <img src="screenshots/Figure%2001%20—%20top.PNG" width="600"/>
 
-**Windows Monitoring**
-  
-<img src="screenshots/Figure%2010_Windows_TaskManager.PNG" width="600"/>
+### 🪟 Windows Monitoring
 
-**Ransomware Comparison**
-  
-<img src="screenshots/Figure%2016_%20Hash%20comparison%20(baseline%20vs%20after).PNG" width="600"/>
+<img src="screenshots/Figure%2010%20%E2%80%94%20topWindows_TaskManager.PNG" width="650">
 
+### 🔐 Ransomware Hash Comparison
+
+<img src="screenshots/Figure%2016%E2%80%94%20Hash%20comparison%20(baseline%20vs%20after).PNG" width="650">
 </p>
 
 ---
