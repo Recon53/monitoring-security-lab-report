@@ -1,88 +1,79 @@
-Monitoring & Security Lab: Ubuntu and Windows
-Overview
+# Monitoring & Security Lab: Ubuntu and Windows
 
-This project documents a hands-on monitoring and security lab performed using both Ubuntu Linux and Microsoft Windows.
-The objective of this lab was to learn how operating systems monitor performance, detect suspicious activity, and protect files from malware such as ransomware.
+## Overview
+This project documents a hands-on monitoring and security lab performed using both **Ubuntu Linux** and **Microsoft Windows**.
+
+The objective of this lab was to learn how operating systems:
+
+- Monitor performance and activity  
+- Detect suspicious behavior  
+- Protect files from malware such as ransomware  
 
 The work includes screenshots, explanations, and analysis showing how system tools reveal what is happening “behind the scenes”.
 
-Lab Objectives
+---
 
-Monitor system performance and activity
+## 🎯 Lab Objectives
+- Monitor system performance and activity  
+- Review logs and security tools  
+- Detect suspicious or abnormal behavior  
+- Understand ransomware behavior and defenses  
+- Compare baseline activity versus ransomware activity  
 
-Review logs and security tools
+---
 
-Detect suspicious or abnormal behavior
+## 🐧 Ubuntu Section — Tools Used
+- `top` and `htop` process monitoring  
+- `journalctl` log analysis  
+- Disk and memory usage  
+- Service management (`systemctl`)  
+- Antivirus and intrusion protection (ClamAV + Fail2ban)  
+- File permissions and access control  
 
-Understand ransomware behavior and defenses
+---
 
-Compare baseline activity versus ransomware activity
+## 🪟 Windows Section — Topics Covered
+- Task Manager performance monitoring  
+- PowerShell process monitoring  
+- Viewing Windows services  
+- SafeSim ransomware simulation  
+- Baseline vs post-encryption comparison  
+- Log analysis and incident response concepts  
 
-Ubuntu Section
+---
 
-Tools and concepts explored:
+## 📂 Repository Contents
+| Folder/File | Description |
+|------------|------------|
+| **report/** | Full lab report (Word document with screenshots) |
+| **screenshots/** | Screenshots captured during the lab |
+| **README.md** | Project overview |
 
-top and htop process monitoring
+---
 
-journalctl log analysis
+## 🔎 What This Lab Demonstrates
+✔ How monitoring tools reveal hidden system activity  
+✔ Why logs are critical in cybersecurity  
+✔ How ransomware alters files and system behavior  
+✔ The importance of collecting **baseline data**  
+✔ Real-world investigation techniques used by analysts  
 
-Disk and memory usage
+---
 
-Service management (systemctl)
+## 📌 Future Improvements
+- Add log collection using Splunk or ELK
+- Automate monitoring with scripts
+- Expand to cloud environments
+- Experiment with additional malware research (safe lab setup)
 
-Antivirus and intrusion detection (ClamAV + Fail2ban)
+---
 
-File permissions and access control
-
-Windows Section
-
-Monitoring and ransomware simulation topics covered:
-
-Task Manager performance monitoring
-
-PowerShell process monitoring
-
-System services and auditing logs
-
-SafeSim ransomware simulation
-
-Baseline vs post-encryption file comparison
-
-Log analysis and incident response concepts
-
-What This Lab Demonstrates
-
-✔ How system tools reveal hidden activity
-✔ Why logging and monitoring are critical
-✔ How ransomware changes files and system behavior
-✔ The importance of having baseline data before infection
-✔ Real security investigation techniques used in the field
-
-Files Included
-
-📄 report/ – Full lab report (Word document with screenshots)
-🖼 screenshots/ – Individual screenshots from the lab
-📄 README.md – Project summary
-
-Future Work
-
-This lab can be extended by:
-
-Collecting logs with Splunk or ELK
-
-Adding real-world malware samples (safe research environment)
-
-Automating monitoring with scripts
-
-Expanding to cloud and container monitoring
-
-Author
-
-Miguel Guadalupe
+## 👤 Author
+**Miguel Guadalupe**  
 Graduate Cybersecurity Student
 
-How to View the Report
+---
 
-Click the report folder and open:
+### 📝 How to View the Full Report
+Open the file located in:
 
-Combined_Monitoring_and_Security_Lab_Report.docx
