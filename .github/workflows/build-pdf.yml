@@ -1,0 +1,26 @@
+name: Build README PDF
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install Pandoc
+      run: sudo apt-get install -y pandoc texlive
+
+    - name: Convert README.md to PDF
+      run: pandoc README.md -o report/README.pdf
+
+    - name: Upload PDF artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: lab-pdf
+        path: report/README.pdf
+        
