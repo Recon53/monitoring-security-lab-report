@@ -15,7 +15,7 @@
 
 A hands-on lab demonstrating how to detect ransomware behavior using system logs, monitoring tools, and real incident workflows.
 
-## ✅ Features
+## Features
 
 - Monitors system performance on Ubuntu & Windows
 - Detects suspicious and abnormal processes
@@ -24,7 +24,7 @@ A hands-on lab demonstrating how to detect ransomware behavior using system logs
 - Includes screenshots, explanations, and results
 - Demonstrates real ransomware detection workflow
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Overview](#monitoring--security-lab-ubuntu-and-windows)
 - [Features](#features)
@@ -57,7 +57,7 @@ The work includes screenshots, explanations, and analysis showing how system too
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ✔️ Real system monitoring on Ubuntu and Windows  
 ✔️ Detection of suspicious processes and ransomware behavior  
@@ -80,7 +80,7 @@ The labs demonstrate how monitoring tools help detect suspicious behavior and ra
 
 ---
 
-## 📊 Results Overview
+## Results Overview
 
 Throughout this lab, monitoring tools helped identify:
 - Suspicious process activity in PowerShell
@@ -89,7 +89,7 @@ Throughout this lab, monitoring tools helped identify:
 
 - ---
 
-## 📸 Screenshots Preview
+## Screenshots Preview
 
 <p align="center">
   
@@ -101,14 +101,14 @@ Throughout this lab, monitoring tools helped identify:
 
 <img src="screenshots/Figure%2010%20%E2%80%94%20topWindows_TaskManager.PNG" width="650">
 
-### 🔐 Ransomware Hash Comparison
+### Ransomware Hash Comparison
 
 <img src="screenshots/Figure%2016%E2%80%94%20Hash%20comparison%20(baseline%20vs%20after).PNG" width="650">
 </p>
 
 ---
 
-## 🎯 Lab Objectives
+## Lab Objectives
 - Monitor system performance and activity  
 - Review logs and security tools  
 - Detect suspicious or abnormal behavior  
@@ -117,7 +117,7 @@ Throughout this lab, monitoring tools helped identify:
 
 ---
 
-## 🐧 Ubuntu Section — Tools Used
+## Ubuntu Section — Tools Used
 - `top` and `htop` process monitoring  
 - `journalctl` log analysis  
 - Disk and memory usage  
@@ -127,7 +127,7 @@ Throughout this lab, monitoring tools helped identify:
 
 ---
 
-## 🪟 Windows Section — Topics Covered
+## Windows Section — Topics Covered
 - Task Manager performance monitoring  
 - PowerShell process monitoring  
 - Viewing Windows services  
@@ -137,7 +137,7 @@ Throughout this lab, monitoring tools helped identify:
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 | Folder/File | Description |
 |------------|------------|
 | **report/** | Full lab report (Word document with screenshots) |
@@ -146,7 +146,7 @@ Throughout this lab, monitoring tools helped identify:
 
 ---
 
-## 🔎 What This Lab Demonstrates
+## What This Lab Demonstrates
 ✔ How monitoring tools reveal hidden system activity  
 ✔ Why logs are critical in cybersecurity  
 ✔ How ransomware alters files and system behavior  
@@ -155,7 +155,7 @@ Throughout this lab, monitoring tools helped identify:
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 - Add log collection using Splunk or ELK
 - Automate monitoring with scripts
 - Expand to cloud environments
@@ -163,18 +163,18 @@ Throughout this lab, monitoring tools helped identify:
 
 ---
 
-## 👤 Author
+## Author
 **Miguel Guadalupe**  
 Graduate Cybersecurity Student
 
 ---
 
-### 📝 How to View the Full Report
+### How to View the Full Report
 Open the file located in:
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - Ubuntu 22.04
 - Windows 10
@@ -187,7 +187,7 @@ Open the file located in:
 
 ---
 
-## 🚀 Future Work / Next Steps
+## Future Work / Next Steps
 
 These are ideas planned for future versions of this lab:
 
@@ -199,7 +199,7 @@ These are ideas planned for future versions of this lab:
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 During this lab, monitoring tools provided visibility into several key behaviors:
 
@@ -213,7 +213,7 @@ These results demonstrate how logs, process monitors, and hash comparisons help 
 
 ---
 
-## 💡 Why This Project Matters
+## Why This Project Matters
 
 This project shows how everyday system tools can reveal ransomware behavior,
 suspicious processes, and unusual file activity.  
@@ -222,14 +222,14 @@ It helps students, analysts, and defenders understand what’s happening
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.  
 See the **LICENSE** file for details.
 
 ---
 
-### 📌 Author & Credits
+### Author & Credits
 
 **Author:** Miguel Guadalupe  
 **Program:** FIU Cybersecurity  
