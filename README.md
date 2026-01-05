@@ -26,6 +26,18 @@ The objective of this lab was to learn how operating systems:
 The work includes screenshots, explanations, and analysis showing how system tools reveal what is happening “behind the scenes”.
 
 ---
+## How to Use This Project
+
+This repository is meant for learning and academic research.
+
+- Open the `/report` folder to read the full lab document.
+- Open the `/screenshots` folder to view images and evidence.
+- Use the README as a quick overview of what the lab covers.
+
+The labs demonstrate how monitoring tools help detect suspicious behavior and ransomware activity.
+
+---
+
 ## 📸 Screenshots Preview
 
 <p align="center">
@@ -108,4 +120,14 @@ Graduate Cybersecurity Student
 
 ### 📝 How to View the Full Report
 Open the file located in:
+
+---
+
+### 📌 Author & Credits
+
+**Author:** Miguel Guadalupe  
+**Program:** FIU Cybersecurity  
+**Focus:** Monitoring, Ransomware Research, System Defense  
+**Year:** 2026
+
 
