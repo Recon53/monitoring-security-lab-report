@@ -11,6 +11,9 @@
   <img src="banner.png" alt="Monitoring & Security Lab: Ubuntu and Windows">
 </p>
 
+
+A hands-on lab demonstrating how to detect ransomware behavior using system logs, monitoring tools, and real incident workflows.
+
 ## ✅ Features
 
 - Monitors system performance on Ubuntu & Windows
@@ -161,18 +164,6 @@ Open the file located in:
 
 ---
 
-## 🚀 Future Work / Next Steps
-
-These are ideas planned for future versions of this lab:
-
-🔹 Add SIEM integration (Splunk / Elastic)  
-🔹 Automate log collection with PowerShell / Bash scripts  
-🔹 Add alerts when suspicious hashes are detected  
-🔹 Expand lab to include cloud monitoring (Azure / AWS)  
-🔹 Build a defensive playbook for incident response
-
----
-
 ## 🛠️ Built With
 
 - Ubuntu 22.04
@@ -183,6 +174,18 @@ These are ideas planned for future versions of this lab:
 - ClamAV
 - Fail2ban
 - VirtualBox
+
+---
+
+## 🚀 Future Work / Next Steps
+
+These are ideas planned for future versions of this lab:
+
+🔹 Add SIEM integration (Splunk / Elastic)  
+🔹 Automate log collection with PowerShell / Bash scripts  
+🔹 Add alerts when suspicious hashes are detected  
+🔹 Expand lab to include cloud monitoring (Azure / AWS)  
+🔹 Build a defensive playbook for incident response
 
 ---
 
