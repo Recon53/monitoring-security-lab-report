@@ -18,7 +18,7 @@ jobs:
           sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra librsvg2-bin
 
       - name: Convert README.md to PDF
-        run: pandoc README.md -o report/README.pdf --toc --toc-depth=3
+        run: pandoc cover.md README.md -o report/README.pdf --toc --toc-depth=3
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
