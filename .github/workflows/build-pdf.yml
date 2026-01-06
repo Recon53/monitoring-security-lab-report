@@ -19,10 +19,7 @@ jobs:
 
       - name: Convert README.md to PDF
         run: |
-            pandoc cover.md README.md \
-              -o report/README.pdf \
-              --toc \
-              --toc-depth=3 \
+            pandoc --metadata-file=cover.yaml README.md -o report/README.pdf --toc --toc-depth=3
               --metadata title="Monitoring & Security Lab: Ubuntu and Windows" \
               --metadata author="Miguel Guadalupe" \
               --metadata date="`date`" \
