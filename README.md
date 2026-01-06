@@ -179,6 +179,9 @@ The full PDF version of this lab report can be found here:
 
      **report/README.pdf**
 
+     
+(This report is automatically generated from the latest README using GitHub Actions.)
+
 ---
 
 ## Built With
