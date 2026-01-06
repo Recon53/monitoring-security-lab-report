@@ -18,7 +18,16 @@ jobs:
           sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra librsvg2-bin
 
       - name: Convert README.md to PDF
-        run: pandoc cover.md README.md -o report/README.pdf --toc --toc-depth=3
+        run: |
+            pandoc cover.md README.md \
+              -o report/README.pdf \
+              --toc \
+              --toc-depth=3 \
+              --metadata title="Monitoring & Security Lab: Ubuntu and Windows" \
+              --metadata author="Miguel Guadalupe" \
+              --metadata date="`date`" \
+              --metadata subject="Cybersecurity / Ransomware Monitoring Lab" \
+              --metadata keywords="Cybersecurity, Ransomware, SIEM, Sysmon, Monitoring"
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
