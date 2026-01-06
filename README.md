@@ -1,7 +1,7 @@
 ---
  "Monitoring & Security Lab: Ubuntu and Windows"
  "Miguel Guadalupe"
- "`date`"
+ "2026`"
  "Cybersecurity / Ransomware Monitoring Lab"
  [Cybersecurity, Ransomware, SIEM, Sysmon, Monitoring]
 ---
