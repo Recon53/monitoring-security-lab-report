@@ -1,7 +1,11 @@
-# Monitoring & Security Lab
-## Ubuntu and Windows Ransomware Monitoring
-
-**Author:** Miguel Guadalupe  
-**Program:** FIU Cybersecurity  
-**Date:** January 2026  
-**Version:** 1.0
+---
+title: "Monitoring & Security Lab: Ubuntu and Windows"
+author: "Miguel Guadalupe"
+date: "2026"
+subject: "Cybersecurity / Monitoring Lab"
+keywords:
+  - cybersecurity
+  - ransomware
+  - ubuntu
+  - windows
+---
