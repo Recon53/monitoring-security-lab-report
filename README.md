@@ -97,7 +97,7 @@ Throughout this lab, monitoring tools helped identify:
   
 <img src="screenshots/Figure%2001%20—%20top.PNG" width="600"/>
 
-### 🪟 Windows Monitoring
+### Windows Monitoring
 
 <img src="screenshots/Figure%2010%20%E2%80%94%20topWindows_TaskManager.PNG" width="650">
 
